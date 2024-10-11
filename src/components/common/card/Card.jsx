@@ -1,7 +1,10 @@
-export const Card = () => {
-    return (
-        <div>
-            <h2>Producto 1</h2>
-        </div>
-    )
-}
+export const Card = ({ title, price, stock }) => {
+  //   const { title, price, stock } = props;
+  return (
+    <div style={{ border: "2px solid black", width: "200px", height: "200px" }}>
+      <h2>Titulo: {title}</h2>
+      <h3>Precio: {price}</h3>
+      <h3>Stock: {stock}</h3>
+    </div>
+  );
+};

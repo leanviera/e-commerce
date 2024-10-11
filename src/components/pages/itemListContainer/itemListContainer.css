@@ -1,0 +1,13 @@
+.item-list {
+  background-color: #607d8b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #ffffff;
+}
